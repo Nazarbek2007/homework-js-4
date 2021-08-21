@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background: grey;
+}
+
+
+.container {
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.nav {
+    background: rgb(0, 183, 255);
+}
+
+.h1 {
+    color: black;
+    text-align: center;
+}
+.list__link {
+    color: white;
+    padding: 12px 40px;
+    background: black;
+    border: 2px solid blue;
+    border-radius: 8px;
+    font-size: 50px;
+}
+
+.list__link:hover {
+    color: black;
+    background: white;
+    border: 3px solid black;
+}
+
+.list {
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+}
